@@ -16,13 +16,13 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-gray-800 placeholder:text-xl md:text-3xl md:leading-normal`}
           >
+            <div className={styles.shape} />
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
           </p>
-          <div className={styles.shape} />
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
