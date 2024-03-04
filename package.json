@@ -3,6 +3,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "lint": "next lint",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "seed": "node -r dotenv/config ./scripts/seed.js",
@@ -17,11 +18,13 @@
     "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
     "next": "^14.0.2",
+    "next-auth": "^5.0.0-beta.15",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
+    "use-debounce": "^10.0.0",
     "zod": "^3.22.2"
   },
   "devDependencies": {
